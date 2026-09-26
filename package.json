@@ -1,0 +1,20 @@
+{
+  "name": "makeup-by-kajal-dholani",
+  "version": "1.0.0",
+  "description": "Luxury 3D Motion Website for Makeup by Kajal Dholani Studio",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "gsap": "^3.12.7",
+    "lucide": "^0.477.0",
+    "three": "^0.174.0"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0"
+  }
+}

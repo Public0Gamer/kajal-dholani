@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Makeup by Kajal Dholani | Luxury 3D Bridal & Haute Couture Studio</title>
+  <meta name="description" content="Makeup by Kajal Dholani - Premier Luxury Bridal, Editorial & Celebrity Makeup Artist. Experience our interactive 3D motion beauty studio, bespoke bridal packages & masterclasses.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✨</text></svg>">
+
+  <!-- Google Fonts: Cormorant Garamond, Playfair Display, Montserrat, Italianno -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Montserrat:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Alex+Brush&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+<body class="light-theme">
+  <!-- Custom Luxury Cursor -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-outline" id="cursorOutline"></div>
+
+  <!-- Announcement Bar -->
+  <div class="top-announcement">
+    <div class="container announcement-content">
+      <span class="announcement-pill">NOW BOOKING 2026/2027</span>
+      <p>Accepting Destination Wedding Bookings for Udaipur, Dubai, Bali & Europe • <a href="#booking" class="gold-link">Reserve Your Dates</a></p>
+      <div class="announcement-right">
+        <button id="audioToggle" class="audio-btn" title="Toggle Ambient Harmony" aria-label="Toggle sound">
+          <span class="audio-icon">✨</span>
+          <span class="audio-text">Sound: OFF</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <a href="#" class="brand-logo">
+        <span class="brand-monogram">KD</span>
+        <div class="brand-text">
+          <span class="brand-name">KAJAL DHOLANI</span>
+          <span class="brand-sub">HAUTE MAKEUP STUDIO</span>
+        </div>
+      </a>
+
+      <nav class="desktop-nav" id="desktopNav">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#experience-3d" class="nav-link">3D Studio</a>
+        <a href="#services" class="nav-link">Bespoke Services</a>
+        <a href="#transformations" class="nav-link">Before & After</a>
+        <a href="#look-customizer" class="nav-link">Look Studio</a>
+        <a href="#lookbook" class="nav-link">Lookbook</a>
+        <a href="#masterclass" class="nav-link">Masterclass</a>
+        <a href="#reviews" class="nav-link">Testimonials</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#booking" class="btn btn-luxury-gold">
+          <span>Book Consultation</span>
+          <svg class="icon-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-menu-drawer" id="mobileDrawer">
+    <div class="drawer-header">
+      <div class="brand-logo">
+        <span class="brand-monogram">KD</span>
+        <span class="brand-name">KAJAL DHOLANI</span>
+      </div>
+      <button class="drawer-close" id="drawerClose">&times;</button>
+    </div>
+    <nav class="drawer-nav">
+      <a href="#hero" class="drawer-link">Home</a>
+      <a href="#experience-3d" class="drawer-link">3D Cosmetics Studio</a>
+      <a href="#services" class="drawer-link">Bespoke Services</a>
+      <a href="#transformations" class="drawer-link">Before & After</a>
+      <a href="#look-customizer" class="drawer-link">Interactive Look Studio</a>
+      <a href="#lookbook" class="drawer-link">Portfolio Lookbook</a>
+      <a href="#masterclass" class="drawer-link">Pro Masterclass</a>
+      <a href="#reviews" class="drawer-link">Client Love</a>
+      <a href="#booking" class="drawer-link">Book Appointment</a>
+    </nav>
+    <div class="drawer-footer">
+      <a href="https://wa.me/919876543210?text=Hi%20Kajal,%20I%20would%20like%20to%20inquire%20about%20bridal%20makeup%20services" target="_blank" class="btn btn-whatsapp w-full">
+        💬 Direct WhatsApp Inquiry
+      </a>
+    </div>
+  </div>
+
+  <main>
+    <!-- HERO SECTION WITH 3D MOTION STAGE -->
+    <section class="hero-section" id="hero">
+      <div class="hero-background-decor">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="subtle-grid-pattern"></div>
+      </div>
+
+      <div class="container hero-grid">
+        <!-- Hero Text Content -->
+        <div class="hero-content">
+          <div class="luxury-badge">
+            <span class="badge-sparkle">✦</span>
+            <span>VOGUE & HARPER'S BAZAAR FEATURED ARTIST</span>
+          </div>
+
+          <h1 class="hero-title">
+            The Art of <span class="italic-serif gold-shimmer">Radiant</span><br>
+            Bridal & Haute Glamour
+          </h1>
+
+          <p class="hero-subtitle">
+            Crafting luminous, skin-first bridal transformations and red-carpet aesthetics. Where high-definition artistry meets the timeless luxury of your dreams.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#booking" class="btn btn-primary-gold btn-glow">
+              <span>Reserve Your Wedding Date</span>
+              <span class="btn-icon">→</span>
+            </a>
+            <a href="#experience-3d" class="btn btn-secondary-outline">
+              <span class="play-pulse"></span>
+              <span>Explore 3D Studio</span>
+            </a>
+          </div>
+
+          <!-- Quick Stats / Credentials -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-num" data-target="950">950+</span>
+              <span class="stat-label">Royal Brides</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-num" data-target="12">12+</span>
+              <span class="stat-label">Years of Artistry</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-num">18+</span>
+              <span class="stat-label">Countries Traveled</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-num">5.0 ★</span>
+              <span class="stat-label">Elite Rating</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero 3D Motion Viewport -->
+        <div class="hero-3d-wrapper">
+          <div class="stage-frame">
+            <!-- 3D Canvas Container -->
+            <div id="three-hero-canvas" class="three-viewport" aria-label="Interactive 3D Cosmetics Display">
+              <div class="canvas-loading" id="canvasLoader">
+                <div class="spinner-gold"></div>
+                <span>Curating 3D Artistry...</span>
+              </div>
+            </div>
+
+            <!-- Floating 3D Interaction Badges -->
+            <div class="floating-badge badge-top-right">
+              <span class="badge-dot"></span>
+              <span>Interactive 3D Motion</span>
+            </div>
+
+            <div class="floating-badge badge-bottom-left glass-badge">
+              <div class="badge-avatar">KD</div>
+              <div class="badge-info">
+                <strong>Bespoke Formulation</strong>
+                <small>18K Gold Plated • Silk Velvet Bullet</small>
+              </div>
+            </div>
+
+            <!-- 3D Scene Controls HUD -->
+            <div class="three-hud-controls">
+              <div class="hud-label">Select 3D Piece:</div>
+              <div class="hud-buttons">
+                <button class="hud-btn active" data-model="lipstick" title="Signature Lipstick">💄 Lipstick</button>
+                <button class="hud-btn" data-model="compact" title="Diamond Compact">✨ Compact</button>
+                <button class="hud-btn" data-model="perfume" title="Elixir Bottle">🧴 Elixir</button>
+                <button class="hud-btn" data-model="silk" title="Silk & Pearls">🌸 Silk & Pearls</button>
+              </div>
+
+              <div class="hud-row-color">
+                <span class="hud-label">Shade:</span>
+                <div class="shade-dots" id="shadeSelector">
+                  <button class="shade-dot active" data-color="#9C2738" style="background:#9C2738;" title="Royal Crimson"></button>
+                  <button class="shade-dot" data-color="#B85D6C" style="background:#B85D6C;" title="Rose Velvet"></button>
+                  <button class="shade-dot" data-color="#D98A72" style="background:#D98A72;" title="Cashmere Nude"></button>
+                  <button class="shade-dot" data-color="#701828" style="background:#701828;" title="Burgundy Noir"></button>
+                  <button class="shade-dot" data-color="#E2A78C" style="background:#E2A78C;" title="Champagne Pearl"></button>
+                </div>
+              </div>
+
+              <div class="hud-hint">
+                <span class="drag-icon">⤹⤸</span> Drag to rotate in 3D • Scroll to zoom
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scrolling Marquee of Signature Brands -->
+      <div class="marquee-wrapper">
+        <div class="marquee-track">
+          <span class="marquee-item">DIOR BEAUTY</span>
+          <span class="marquee-star">✦</span>
+          <span class="marquee-item">CHARLOTTE TILBURY</span>
+          <span class="marquee-star">✦</span>
+          <span class="marquee-item">TOM FORD LUXURY</span>
+          <span class="marquee-star">✦</span>
+          <span class="marquee-item">PAT MCGRATH LABS</span>
+          <span class="marquee-star">✦</span>
+          <span class="marquee-item">NARS COSMETICS</span>
+          <span class="marquee-star">✦</span>
+          <span class="marquee-item">ESTÉE LAUDER</span>
+          <span class="marquee-star">✦</span>
+          <span class="marquee-item">CHANEL BEAUTÉ</span>
+          <span class="marquee-star">✦</span>
+          <span class="marquee-item">BOBBI BROWN</span>
+          <span class="marquee-star">✦</span>
+          <span class="marquee-item">HUDA BEAUTY</span>
+          <span class="marquee-star">✦</span>
+          <span class="marquee-item">DIOR BEAUTY</span>
+          <span class="marquee-star">✦</span>
+          <span class="marquee-item">CHARLOTTE TILBURY</span>
+          <span class="marquee-star">✦</span>
+          <span class="marquee-item">TOM FORD LUXURY</span>
+          <span class="marquee-star">✦</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: THE ARTIST PHILOSOPHY -->
+    <section class="section philosophy-section" id="philosophy">
+      <div class="container philosophy-grid">
+        <div class="philosophy-visuals">
+          <div class="visual-stack">
+            <div class="visual-card visual-back">
+              <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=700&q=80" alt="Luxury Bridal Preparation" loading="lazy">
+            </div>
+            <div class="visual-card visual-front tilt-card">
+              <img src="https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=700&q=80" alt="Kajal Dholani Signature Bridal Look" loading="lazy">
+              <div class="visual-badge">
+                <span class="badge-title">Kajal Dholani</span>
+                <span class="badge-desc">Lead Artist & Founder</span>
+              </div>
+            </div>
+            <div class="floating-seal">
+              <svg viewBox="0 0 100 100" class="rotating-text-svg">
+                <path id="circlePath" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" fill="transparent"/>
+                <text font-size="10.5" fill="#C5A059" letter-spacing="2">
+                  <textPath href="#circlePath">
+                    • HAUTE BRIDAL ARTISTRY • KAJAL DHOLANI
+                  </textPath>
+                </text>
+              </svg>
+              <div class="seal-inner">✨</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="philosophy-content">
+          <div class="section-tag">THE ARTIST BEHIND THE GLOW</div>
+          <h2 class="section-title">"True luxury is makeup that looks like <span class="italic-serif gold-shimmer">second skin</span> under 4K lenses."</h2>
+          <p class="section-desc">
+            With over a decade of mastery across international destination weddings, celebrity editorial covers, and high-fashion runways, Kajal Dholani blends timeless royal Indian bridal grandeur with modern European dewy skin aesthetics.
+          </p>
+
+          <div class="philosophy-pillars">
+            <div class="pillar-item">
+              <div class="pillar-icon">💎</div>
+              <div class="pillar-text">
+                <h3>Skin-First Architecture</h3>
+                <p>Customized pre-makeup lymphatic drainage and Japanese skin prep for a weightless, radiant glass-skin base.</p>
+              </div>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-icon">👑</div>
+              <div class="pillar-text">
+                <h3>18-Hour Waterproof Longevity</h3>
+                <p>Proprietary micro-setting techniques engineered to endure humid climates, emotional ceremonies, and continuous flashlights.</p>
+              </div>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-icon">🎨</div>
+              <div class="pillar-text">
+                <h3>Tailored Color Alchemy</h3>
+                <p>Personalized pigment mixing matching your jewelry metals, bridal trousseau hues, and skin undertones.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="signature-line">
+            <span class="signature-text">Kajal Dholani</span>
+            <span class="signature-role">International Celebrity Makeup Artist</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: BESPOKE SERVICES & SIGNATURE PACKAGES -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">HAUTE COUTURE SERVICES</span>
+          <h2 class="section-title">Bespoke Bridal & Glamour <span class="italic-serif gold-shimmer">Experiences</span></h2>
+          <p class="section-subtitle">Every look is a handcrafted masterpiece tailored to your personality, silhouette, and celebration lighting.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service Card 1 -->
+          <div class="service-card tilt-card" data-service="royal-bridal">
+            <div class="service-card-top">
+              <span class="service-badge">SIGNATURE EXPERT</span>
+              <span class="service-duration">4 Hours</span>
+            </div>
+            <div class="service-icon">👑</div>
+            <h3 class="service-name">The Royal Heritage Bride</h3>
+            <p class="service-summary">The ultimate regal transformation for the main wedding ceremony with ultra-HD micro airbrushing.</p>
+            
+            <ul class="service-features">
+              <li><span>✓</span> Ultra-HD Japanese Micro-Airbrush Base</li>
+              <li><span>✓</span> 3D Mink / Silk Lash Sculpting & Brow Architecture</li>
+              <li><span>✓</span> Couture Hair Design with Fresh Florals / Accessories</li>
+              <li><span>✓</span> Royal Dupatta Draping & Heritage Jewelry Setting</li>
+              <li><span>✓</span> Luxury On-Site Touchup Kit with Full-size Lipstick</li>
+            </ul>
+
+            <div class="service-footer">
+              <div class="service-price">
+                <span class="price-label">Starting from</span>
+                <span class="price-val">₹65,000</span>
+              </div>
+              <button class="btn btn-card-gold select-package-btn" data-pack="The Royal Heritage Bride" data-price="65000">
+                Book This Look
+              </button>
+            </div>
+          </div>
+
+          <!-- Service Card 2 (Featured) -->
+          <div class="service-card featured-service tilt-card" data-service="reception-glam">
+            <div class="featured-ribbon">MOST COVETED</div>
+            <div class="service-card-top">
+              <span class="service-badge gold-badge">RED CARPET</span>
+              <span class="service-duration">3.5 Hours</span>
+            </div>
+            <div class="service-icon">✨</div>
+            <h3 class="service-name">Reception & Sangeet Haute Glam</h3>
+            <p class="service-summary">Dramatic spotlight eyes, luminous high-beam glow, and sophisticated modern red carpet silhouettes.</p>
+            
+            <ul class="service-features">
+              <li><span>✓</span> Glass Skin Strobing & Seamless Contour</li>
+              <li><span>✓</span> Dual-Tone Metallic / Smokey Eye Glamour</li>
+              <li><span>✓</span> Hollywood Waves or Modern Textured Updo</li>
+              <li><span>✓</span> Saree / Modern Lehenga Sculptural Draping</li>
+              <li><span>✓</span> Full Waterproof 18-Hour Endurance Seal</li>
+            </ul>
+
+            <div class="service-footer">
+              <div class="service-price">
+                <span class="price-label">Starting from</span>
+                <span class="price-val">₹45,000</span>
+              </div>
+              <button class="btn btn-primary-gold select-package-btn" data-pack="Reception & Sangeet Haute Glam" data-price="45000">
+                Book This Look
+              </button>
+            </div>
+          </div>
+
+          <!-- Service Card 3 -->
+          <div class="service-card tilt-card" data-service="destination-wedding">
+            <div class="service-card-top">
+              <span class="service-badge">GLOBAL TROUSSEAU</span>
+              <span class="service-duration">Full 3-Day Celebrations</span>
+            </div>
+            <div class="service-icon">✈️</div>
+            <h3 class="service-name">Global Destination Wedding</h3>
+            <p class="service-summary">Complete beauty direction for Udaipur, Jaipur, Goa, Dubai, Bali, and European destination weddings.</p>
+            
+            <ul class="service-features">
+              <li><span>✓</span> Up to 5 Distinct Event Looks (Mehendi, Sangeet, Pheras, etc.)</li>
+              <li><span>✓</span> Personal Travel Concierge & On-Call Touch-Up Artist</li>
+              <li><span>✓</span> Mother of the Bride & Sister Glam Coordination</li>
+              <li><span>✓</span> Bridal Skin Prep Regimen & Pre-Event Consultation</li>
+              <li><span>✓</span> Exclusive 1-on-1 Artist Dedication</li>
+            </ul>
+
+            <div class="service-footer">
+              <div class="service-price">
+                <span class="price-label">Custom Itinerary</span>
+                <span class="price-val">₹1,85,000+</span>
+              </div>
+              <button class="btn btn-card-gold select-package-btn" data-pack="Global Destination Wedding" data-price="185000">
+                Request Itinerary
+              </button>
+            </div>
+          </div>
+
+          <!-- Service Card 4 -->
+          <div class="service-card tilt-card" data-service="editorial-commercial">
+            <div class="service-card-top">
+              <span class="service-badge">HIGH FASHION</span>
+              <span class="service-duration">Half / Full Day</span>
+            </div>
+            <div class="service-icon">📸</div>
+            <h3 class="service-name">Editorial & Celebrity Campaign</h3>
+            <p class="service-summary">High-concept fashion shoots, magazine editorials, designer lookbooks, and luxury advertising.</p>
+            
+            <ul class="service-features">
+              <li><span>✓</span> Avant-Garde & High-Fashion Artistry</li>
+              <li><span>✓</span> Lighting-Specific Matte & Gloss Formulations</li>
+              <li><span>✓</span> Fast Look Transitions on Studio Set</li>
+              <li><span>✓</span> Complete Creative Art Direction Collaboration</li>
+              <li><span>✓</span> High-Res Retouch Prep Optimization</li>
+            </ul>
+
+            <div class="service-footer">
+              <div class="service-price">
+                <span class="price-label">Day Rate</span>
+                <span class="price-val">₹50,000</span>
+              </div>
+              <button class="btn btn-card-gold select-package-btn" data-pack="Editorial & Celebrity Campaign" data-price="50000">
+                Book Campaign
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: INTERACTIVE BEFORE & AFTER TRANSFORMATION SLIDER -->
+    <section class="section transformation-section" id="transformations">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">REAL BRIDAL RADIANCE</span>
+          <h2 class="section-title">The Power of <span class="italic-serif gold-shimmer">Subtle Alchemy</span></h2>
+          <p class="section-subtitle">Slide across to discover how we enhance your innate beauty without masking your natural features.</p>
+        </div>
+
+        <div class="transformation-wrapper">
+          <!-- Transformation Selector Pills -->
+          <div class="transformation-tabs">
+            <button class="trans-tab active" data-look="look1">
+              <span>Look 01: Royal Heritage Bride</span>
+            </button>
+            <button class="trans-tab" data-look="look2">
+              <span>Look 02: Golden Hour Reception</span>
+            </button>
+            <button class="trans-tab" data-look="look3">
+              <span>Look 03: Modern Dewy Cocktail</span>
+            </button>
+          </div>
+
+          <!-- Comparison Stage Container -->
+          <div class="comparison-container" id="comparisonSlider">
+            <!-- After Image (Full background) -->
+            <div class="image-layer after-image">
+              <img id="afterImg" src="https://images.unsplash.com/photo-1546804784-896d0dca3805?auto=format&fit=crop&w=1200&q=80" alt="After Bridal Makeup by Kajal Dholani">
+              <span class="image-label label-after">✦ AFTER: SIGNATURE GLAM</span>
+            </div>
+
+            <!-- Before Image (Clipped overlay) -->
+            <div class="image-layer before-image" id="beforeLayer">
+              <img id="beforeImg" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1200&q=80" alt="Before Makeup Prep">
+              <span class="image-label label-before">BARE CANVAS</span>
+            </div>
+
+            <!-- Drag Handle Bar -->
+            <div class="slider-handle" id="sliderHandle">
+              <div class="handle-line"></div>
+              <div class="handle-circle">
+                <span class="handle-arrows">❮ ❯</span>
+              </div>
+              <div class="handle-line"></div>
+            </div>
+          </div>
+
+          <!-- Look Breakdown Details -->
+          <div class="look-details-bar" id="lookDetailsBar">
+            <div class="detail-pill">
+              <span class="detail-dot"></span>
+              <strong>Base:</strong> <span id="detailBase">Dewy Airbrush 4K Satin</span>
+            </div>
+            <div class="detail-pill">
+              <span class="detail-dot"></span>
+              <strong>Eyes:</strong> <span id="detailEyes">Soft Rose Gold Smokey & 3D Mink Lashes</span>
+            </div>
+            <div class="detail-pill">
+              <span class="detail-dot"></span>
+              <strong>Lips:</strong> <span id="detailLips">Velvet Berry Contour with Peach Center</span>
+            </div>
+            <div class="detail-pill">
+              <span class="detail-dot"></span>
+              <strong>Longevity:</strong> <span id="detailLongevity">18-Hour Humidity-Proof</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: INTERACTIVE 3D LOOK STUDIO / CUSTOMIZER -->
+    <section class="section customizer-section" id="look-customizer">
+      <div class="container">
+        <div class="customizer-card">
+          <div class="customizer-header">
+            <div class="customizer-intro">
+              <span class="section-tag">BESPOKE BEAUTY ARCHITECT</span>
+              <h2 class="section-title">Design Your <span class="italic-serif gold-shimmer">Dream Look</span></h2>
+              <p>Select your event style, undertone, and aesthetic preferences. Our interactive studio will curate your ideal palette and estimated bridal session plan.</p>
+            </div>
+            <div class="customizer-badge">
+              <span class="badge-icon">💎</span>
+              <span>Instant Bridal Blueprint</span>
+            </div>
+          </div>
+
+          <div class="customizer-grid">
+            <!-- Customizer Controls -->
+            <div class="customizer-controls">
+              <!-- Step 1: Occasion -->
+              <div class="custom-step">
+                <label class="step-label">1. Occasion & Celebration Type</label>
+                <div class="option-chips" id="occasionChips">
+                  <button class="chip active" data-val="Traditional Wedding (Pheras)">Traditional Pheras</button>
+                  <button class="chip" data-val="Reception Gala">Reception Gala</button>
+                  <button class="chip" data-val="Sangeet Night">Sangeet Extravaganza</button>
+                  <button class="chip" data-val="Cocktail Party">Cocktail Party</button>
+                  <button class="chip" data-val="Intimate Roka">Intimate Roka</button>
+                </div>
+              </div>
+
+              <!-- Step 2: Complexion Tone -->
+              <div class="custom-step">
+                <label class="step-label">2. Skin Undertone & Complexion</label>
+                <div class="option-chips" id="toneChips">
+                  <button class="chip active" data-val="Warm Golden">✨ Warm Golden</button>
+                  <button class="chip" data-val="Neutral Olive">🫒 Neutral Olive</button>
+                  <button class="chip" data-val="Cool Rose">🌸 Cool Rosy</button>
+                  <button class="chip" data-val="Rich Honey">🍯 Rich Honey</button>
+                </div>
+              </div>
+
+              <!-- Step 3: Eye Aesthetic -->
+              <div class="custom-step">
+                <label class="step-label">3. Signature Eye Focus</label>
+                <div class="option-chips" id="eyeChips">
+                  <button class="chip active" data-val="Champagne & Bronze Smokey">Champagne & Bronze Smokey</button>
+                  <button class="chip" data-val="Royal Kohl Smudge">Royal Kohl Smudge</button>
+                  <button class="chip" data-val="Rose Gold Glitter Wing">Rose Gold Glitter Wing</button>
+                  <button class="chip" data-val="Dewy Minimalist Lift">Dewy Minimalist Lift</button>
+                </div>
+              </div>
+
+              <!-- Step 4: Lip Signature Finish -->
+              <div class="custom-step">
+                <label class="step-label">4. Lip Artistry Finish</label>
+                <div class="option-chips" id="lipChips">
+                  <button class="chip active" data-val="Velvet Matte Crimson" data-color="#8E283E">Velvet Crimson</button>
+                  <button class="chip" data-val="Ombré Cashmere Nude" data-color="#C58572">Ombré Nude</button>
+                  <button class="chip" data-val="Glossy Rose Glass" data-color="#C75B7A">Glossy Rose Glass</button>
+                  <button class="chip" data-val="Deep Plum Berry" data-color="#5E1928">Deep Plum Berry</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Customizer Live Result Card -->
+            <div class="customizer-preview">
+              <div class="preview-palette-card">
+                <div class="palette-header">
+                  <div class="palette-title">YOUR CURATED BRIDAL BLUEPRINT</div>
+                  <div class="palette-id">RECIPE #KD-2026</div>
+                </div>
+
+                <div class="palette-swatches">
+                  <div class="swatch-item">
+                    <div class="swatch-circle" id="swatchBase" style="background:#EBCBB6;"></div>
+                    <span>Base Priming</span>
+                  </div>
+                  <div class="swatch-item">
+                    <div class="swatch-circle" id="swatchEye" style="background:#B38B6D;"></div>
+                    <span>Eye Shimmer</span>
+                  </div>
+                  <div class="swatch-item">
+                    <div class="swatch-circle" id="swatchLip" style="background:#8E283E;"></div>
+                    <span>Lip Shade</span>
+                  </div>
+                  <div class="swatch-item">
+                    <div class="swatch-circle" id="swatchAccent" style="background:#D4AF37;"></div>
+                    <span>18K Gold Glow</span>
+                  </div>
+                </div>
+
+                <div class="preview-spec-list">
+                  <div class="spec-row">
+                    <span class="spec-k">Target Look:</span>
+                    <strong class="spec-v" id="specOccasion">Traditional Wedding (Pheras)</strong>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-k">Undertone Harmony:</span>
+                    <strong class="spec-v" id="specTone">Warm Golden</strong>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-k">Eye Focus:</span>
+                    <strong class="spec-v" id="specEye">Champagne & Bronze Smokey</strong>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-k">Lip Texture:</span>
+                    <strong class="spec-v" id="specLip">Velvet Matte Crimson</strong>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-k">Preparation Time:</span>
+                    <strong class="spec-v">3.5 - 4 Hours</strong>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-k">Recommended Artist:</span>
+                    <strong class="spec-v">Kajal Dholani (Lead Pro)</strong>
+                  </div>
+                </div>
+
+                <div class="preview-cta">
+                  <button class="btn btn-primary-gold w-full" id="applyLookToBooking">
+                    <span>Lock In This Blueprint for Booking</span>
+                    <span>→</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: PORTFOLIO LOOKBOOK -->
+    <section class="section lookbook-section" id="lookbook">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">COUTURE PORTFOLIO</span>
+          <h2 class="section-title">The Bridal & Editorial <span class="italic-serif gold-shimmer">Lookbook</span></h2>
+          <p class="section-subtitle">Explore our gallery of real brides, celebrity transformations, and editorial magazine features.</p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="lookbook-filters">
+          <button class="filter-btn active" data-filter="all">All Looks (12)</button>
+          <button class="filter-btn" data-filter="bridal">Royal Bridal</button>
+          <button class="filter-btn" data-filter="reception">Reception & Sangeet</button>
+          <button class="filter-btn" data-filter="editorial">Editorial & Fashion</button>
+          <button class="filter-btn" data-filter="dewy">Minimalist Dewy</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid" id="galleryGrid">
+          <!-- Item 1 -->
+          <div class="gallery-item tilt-card" data-category="bridal" data-title="The Heritage Rajputana Bride" data-desc="Deep crimson hand-embroidered lehenga paired with polished gold eye halo and bespoke velvet crimson lips. Udaipur Palace Wedding." data-img="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80">
+            <div class="gallery-img-box">
+              <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80" alt="Royal Indian Bride" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="overlay-tag">Royal Bridal</span>
+                <h4 class="overlay-title">The Heritage Rajputana Bride</h4>
+                <p class="overlay-location">📍 Taj Lake Palace, Udaipur</p>
+                <button class="overlay-view-btn">View Transformation ✦</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="gallery-item tilt-card" data-category="reception" data-title="Starlight Cocktail Glamour" data-desc="Sculpted cheekbones, high-voltage champagne glitter eyes, and wet-look Hollywood waves for an unforgettable evening gala." data-img="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=800&q=80">
+            <div class="gallery-img-box">
+              <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=800&q=80" alt="Reception Glam" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="overlay-tag">Reception & Sangeet</span>
+                <h4 class="overlay-title">Starlight Cocktail Glamour</h4>
+                <p class="overlay-location">📍 The St. Regis, Mumbai</p>
+                <button class="overlay-view-btn">View Transformation ✦</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="gallery-item tilt-card" data-category="editorial" data-title="Couture Vogue Editorial" data-desc="Feathered editorial brows, hyper-hydrated glass skin, and monochromatic berry stain for Harper's Bazaar wedding cover." data-img="https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=800&q=80">
+            <div class="gallery-img-box">
+              <img src="https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=800&q=80" alt="Editorial Beauty" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="overlay-tag">Editorial & Fashion</span>
+                <h4 class="overlay-title">Couture Vogue Editorial</h4>
+                <p class="overlay-location">📍 Harper's Bazaar Cover Shoot</p>
+                <button class="overlay-view-btn">View Transformation ✦</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="gallery-item tilt-card" data-category="dewy" data-title="Sunkissed Destination Roka" data-desc="Golden hour glow with fresh peach blush, fluttery feather lashes, and sheer honey gloss for an intimate beach celebration." data-img="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=80">
+            <div class="gallery-img-box">
+              <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=80" alt="Dewy Look" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="overlay-tag">Minimalist Dewy</span>
+                <h4 class="overlay-title">Sunkissed Destination Roka</h4>
+                <p class="overlay-location">📍 W Hotel, Goa</p>
+                <button class="overlay-view-btn">View Transformation ✦</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="gallery-item tilt-card" data-category="bridal" data-title="Contemporary Pastel Bride" data-desc="Blush pink zardozi lehenga paired with winged eyeliner, petal-soft pink cheeks, and rose quartz shimmer lids." data-img="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80">
+            <div class="gallery-img-box">
+              <img src="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80" alt="Pastel Bride" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="overlay-tag">Royal Bridal</span>
+                <h4 class="overlay-title">Contemporary Pastel Bride</h4>
+                <p class="overlay-location">📍 Rambagh Palace, Jaipur</p>
+                <button class="overlay-view-btn">View Transformation ✦</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 6 -->
+          <div class="gallery-item tilt-card" data-category="reception" data-title="Modern Sangeet Disco Sparkle" data-desc="Smokey emerald liner with multi-dimensional chrome glitter that catches every stage spotlight during dance performances." data-img="https://images.unsplash.com/photo-1526045612212-70caf35c14df?auto=format&fit=crop&w=800&q=80">
+            <div class="gallery-img-box">
+              <img src="https://images.unsplash.com/photo-1526045612212-70caf35c14df?auto=format&fit=crop&w=800&q=80" alt="Sangeet Look" loading="lazy">
+              <div class="gallery-overlay">
+                <span class="overlay-tag">Reception & Sangeet</span>
+                <h4 class="overlay-title">Modern Sangeet Disco Sparkle</h4>
+                <p class="overlay-location">📍 Atlantis The Royal, Dubai</p>
+                <button class="overlay-view-btn">View Transformation ✦</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIGHTBOX MODAL FOR LOOKBOOK -->
+    <div class="lightbox-modal" id="lookbookModal">
+      <div class="lightbox-backdrop" id="modalBackdrop"></div>
+      <div class="lightbox-content">
+        <button class="lightbox-close" id="modalClose">&times;</button>
+        <div class="lightbox-grid">
+          <div class="lightbox-image-side">
+            <img id="modalImg" src="" alt="Enlarged Bridal Look">
+          </div>
+          <div class="lightbox-info-side">
+            <span class="lightbox-category" id="modalCategory">ROYAL BRIDAL</span>
+            <h3 class="lightbox-title" id="modalTitle">The Heritage Rajputana Bride</h3>
+            <p class="lightbox-desc" id="modalDesc">Detailed description here.</p>
+            <div class="lightbox-curator">
+              <div class="curator-avatar">KD</div>
+              <div>
+                <strong>Artistry by Kajal Dholani</strong>
+                <small>Lead Artist & Master Educator</small>
+              </div>
+            </div>
+            <a href="#booking" class="btn btn-primary-gold w-full mt-auto" id="modalBookBtn">
+              Inquire For This Specific Look
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION: MASTERCLASS & ACADEMY -->
+    <section class="section masterclass-section" id="masterclass">
+      <div class="container">
+        <div class="masterclass-banner">
+          <div class="masterclass-content">
+            <div class="exclusive-badge">
+              <span>ACADEMY BATCH 2026</span>
+              <span class="badge-accent">• CERTIFIED MASTERCLASS</span>
+            </div>
+            <h2 class="masterclass-title">Become a Certified <span class="italic-serif gold-shimmer">Luxury Bridal</span> Artist</h2>
+            <p class="masterclass-subtitle">
+              Learn Kajal Dholani’s signature techniques: 4K Japanese skin prep, micro-airbrush blending, bridal longevity chemistry, and the high-ticket business of destination weddings.
+            </p>
+
+            <div class="masterclass-highlights">
+              <div class="highlight-item">
+                <span class="highlight-check">✦</span>
+                <div>
+                  <strong>7-Day Intensive Hands-on Practicum</strong>
+                  <p>Work on professional bridal models with live feedback from Kajal.</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-check">✦</span>
+                <div>
+                  <strong>Complete Pro Artist Kit (Worth ₹45,000)</strong>
+                  <p>Includes Japanese airbrush gun, curated eyeshadow palettes, & brushes.</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-check">✦</span>
+                <div>
+                  <strong>Client Acquisition & Pricing Blueprint</strong>
+                  <p>Master how to charge ₹50,000+ per bride and book destination weddings.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="masterclass-action">
+              <div class="seat-counter">
+                <span class="pulse-indicator"></span>
+                <span>Only <strong>4 Seats Left</strong> for Upcoming Batch!</span>
+              </div>
+              <button class="btn btn-primary-gold" id="enrollMasterclassBtn">
+                Download Syllabus & Apply
+              </button>
+            </div>
+          </div>
+
+          <div class="masterclass-image-side">
+            <div class="academy-badge-circle">
+              <span>KD</span>
+              <small>ACADEMY</small>
+            </div>
+            <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=700&q=80" alt="Masterclass demonstration" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: CLIENT TESTIMONIALS & REVIEWS -->
+    <section class="section testimonials-section" id="reviews">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">WORDS FROM OUR ROYAL BRIDES</span>
+          <h2 class="section-title">Enduring Love & <span class="italic-serif gold-shimmer">Gratitude</span></h2>
+          <p class="section-subtitle">Real moments, real emotions, and reviews from women who trusted us on their most memorable day.</p>
+        </div>
+
+        <div class="testimonials-slider-container">
+          <div class="testimonials-grid" id="testiTrack">
+            <!-- Review 1 -->
+            <div class="testi-card tilt-card">
+              <div class="testi-stars">★★★★★</div>
+              <p class="testi-quote">
+                "Kajal made me look like an absolute dream at my Udaipur palace wedding! The makeup didn't budge through 6 hours of dancing, tears, and heavy humidity. Everyone commented on how natural yet regal my skin looked. She is pure magic!"
+              </p>
+              <div class="testi-author">
+                <div class="author-avatar">AP</div>
+                <div class="author-details">
+                  <strong>Aadhya Patel</strong>
+                  <span>Bride • Taj Lake Palace, Udaipur</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="testi-card featured-testi tilt-card">
+              <div class="testi-stars">★★★★★</div>
+              <p class="testi-quote">
+                "Finding an artist who understands modern dewy skin without over-powdering was my biggest priority. Kajal’s eye artistry is unmatched—my eyes looked twice as big and the photos look straight out of Vogue. Best decision of my wedding!"
+              </p>
+              <div class="testi-author">
+                <div class="author-avatar">SK</div>
+                <div class="author-details">
+                  <strong>Sanya Kapoor-Singhania</strong>
+                  <span>Bride • The St. Regis, Mumbai</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="testi-card tilt-card">
+              <div class="testi-stars">★★★★★</div>
+              <p class="testi-quote">
+                "We flew Kajal and her team to Dubai for our 3-day celebrations. Every single look was completely distinct from the other—from my vibrant Mehendi to the royal Pheras. Her calm, soothing presence kept all wedding anxiety away."
+              </p>
+              <div class="testi-author">
+                <div class="author-avatar">NM</div>
+                <div class="author-details">
+                  <strong>Natasha Mirchandani</strong>
+                  <span>Bride • Atlantis The Palm, Dubai</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: INTERACTIVE BOOKING & VIP ESTIMATOR -->
+    <section class="section booking-section" id="booking">
+      <div class="container">
+        <div class="booking-grid">
+          <!-- Booking Information & FAQs -->
+          <div class="booking-info">
+            <span class="section-tag">VIP CONSULTATION</span>
+            <h2 class="section-title">Reserve Your <span class="italic-serif gold-shimmer">Wedding Date</span></h2>
+            <p class="booking-desc">
+              Due to high demand and exclusive 1-on-1 dedication, Kajal accepts a limited number of brides each season. Early reservation is recommended 4-8 months in advance.
+            </p>
+
+            <div class="booking-perks">
+              <div class="perk-box">
+                <span class="perk-icon">💎</span>
+                <div>
+                  <strong>Complimentary Virtual Consultation</strong>
+                  <p>30-minute face chart design and skincare prep roadmap with Kajal.</p>
+                </div>
+              </div>
+              <div class="perk-box">
+                <span class="perk-icon">🛡️</span>
+                <div>
+                  <strong>Official Contract & Date Guarantee</strong>
+                  <p>100% reserved time slot with zero double-booking policy.</p>
+                </div>
+              </div>
+              <div class="perk-box">
+                <span class="perk-icon">💄</span>
+                <div>
+                  <strong>Luxury Touchup Gift Hamper</strong>
+                  <p>Included with all Royal & Destination packages.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="direct-contact-card">
+              <div class="contact-header">DIRECT STUDIO CONCIERGE</div>
+              <p>Prefer an immediate response? Connect directly with our studio coordinator:</p>
+              <div class="contact-links">
+                <a href="https://wa.me/919876543210?text=Hi%20Kajal%20Studio,%20I%20am%20interested%20in%20bridal%20makeup%20booking" target="_blank" class="contact-btn wa-gold">
+                  💬 WhatsApp VIP Line (+91 98765 43210)
+                </a>
+                <a href="mailto:concierge@makeupbykajaldholani.com" class="contact-btn mail-gold">
+                  ✉️ concierge@makeupbykajaldholani.com
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Booking & Quote Estimator Form -->
+          <div class="booking-form-wrapper">
+            <form class="luxury-form" id="bookingForm">
+              <h3 class="form-title">Consultation & Date Reservation</h3>
+
+              <div class="form-row-2">
+                <div class="form-group">
+                  <label for="clientName">Full Name *</label>
+                  <input type="text" id="clientName" required placeholder="e.g. Ananya Sharma">
+                </div>
+                <div class="form-group">
+                  <label for="clientPhone">WhatsApp Number *</label>
+                  <input type="tel" id="clientPhone" required placeholder="+91 98765 43210">
+                </div>
+              </div>
+
+              <div class="form-row-2">
+                <div class="form-group">
+                  <label for="eventDate">Wedding / Event Date *</label>
+                  <input type="date" id="eventDate" required>
+                </div>
+                <div class="form-group">
+                  <label for="eventCity">Wedding City / Destination *</label>
+                  <input type="text" id="eventCity" required placeholder="e.g. Udaipur, Mumbai, Dubai">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="servicePackage">Desired Service Package *</label>
+                <select id="servicePackage" required>
+                  <option value="royal-bridal" data-price="65000">The Royal Heritage Bride (₹65,000)</option>
+                  <option value="reception-glam" data-price="45000">Reception & Sangeet Haute Glam (₹45,000)</option>
+                  <option value="destination-wedding" data-price="185000">Global Destination Wedding (3-Days) (₹1,85,000+)</option>
+                  <option value="editorial-commercial" data-price="50000">Editorial & Celebrity Campaign (₹50,000)</option>
+                  <option value="pro-masterclass" data-price="75000">Pro Academy Masterclass Enrollment (₹75,000)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label>Add-On Services</label>
+                <div class="addon-checkboxes">
+                  <label class="checkbox-pill">
+                    <input type="checkbox" id="addonFamily" data-addon="15000">
+                    <span>Mother / Sister Glam (+₹15,000)</span>
+                  </label>
+                  <label class="checkbox-pill">
+                    <input type="checkbox" id="addonAirbrush" data-addon="8000" checked>
+                    <span>Premium Airbrush Base Upgrade (+₹8,000)</span>
+                  </label>
+                  <label class="checkbox-pill">
+                    <input type="checkbox" id="addonTouchup" data-addon="12000">
+                    <span>Full-Evening On-Site Touchup Artist (+₹12,000)</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Real-time Cost Estimation Box -->
+              <div class="estimate-summary">
+                <div class="estimate-label">Estimated Investment:</div>
+                <div class="estimate-val" id="estimateDisplay">₹73,000</div>
+              </div>
+
+              <div class="form-group">
+                <label for="clientNotes">Special Requests / Outfit Color Details</label>
+                <textarea id="clientNotes" rows="2" placeholder="Tell us about your lehenga designer, event theme, skin concerns..."></textarea>
+              </div>
+
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary-gold w-full btn-glow" id="submitBookingBtn">
+                  <span>Send Consultation Inquiry & Connect on WhatsApp</span>
+                  <span class="btn-icon">→</span>
+                </button>
+              </div>
+
+              <p class="form-security">
+                🔒 Your details are 100% confidential. No spam ever. We reply within 2 hours.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- LUXURY FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col brand-col">
+        <div class="brand-logo footer-logo">
+          <span class="brand-monogram">KD</span>
+          <div class="brand-text">
+            <span class="brand-name">MAKEUP BY KAJAL DHOLANI</span>
+            <span class="brand-sub">LUXURY BRIDAL & HAUTE COUTURE</span>
+          </div>
+        </div>
+        <p class="footer-bio">
+          Pioneering international bridal luxury, 4K skin realism, and high-fashion aesthetics. Available worldwide for royal brides and destination celebrations.
+        </p>
+        <div class="footer-socials">
+          <a href="#" class="social-circle" aria-label="Instagram">IG</a>
+          <a href="#" class="social-circle" aria-label="Pinterest">PI</a>
+          <a href="#" class="social-circle" aria-label="YouTube">YT</a>
+          <a href="#" class="social-circle" aria-label="LinkedIn">LI</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Services</h4>
+        <ul class="footer-links">
+          <li><a href="#services">Royal Bridal Transformation</a></li>
+          <li><a href="#services">Sangeet & Reception Glam</a></li>
+          <li><a href="#services">Destination Wedding Entourage</a></li>
+          <li><a href="#services">Editorial & Runway Artistry</a></li>
+          <li><a href="#services">Skin Prep & Hydration Ritual</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Studio Locations</h4>
+        <ul class="footer-links">
+          <li><span class="gold-bullet">✦</span> <strong>Mumbai Flagship:</strong> Juhu Tara Road, Juhu</li>
+          <li><span class="gold-bullet">✦</span> <strong>Dubai Studio:</strong> Downtown Dubai, UAE</li>
+          <li><span class="gold-bullet">✦</span> <strong>Rajasthan Hub:</strong> Udaipur & Jaipur</li>
+          <li><span class="gold-bullet">✦</span> <strong>Worldwide:</strong> Available on Tour</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">VIP Concierge</h4>
+        <p class="footer-contact-item"><strong>WhatsApp:</strong> +91 98765 43210</p>
+        <p class="footer-contact-item"><strong>Email:</strong> vip@makeupbykajaldholani.com</p>
+        <p class="footer-contact-item"><strong>Studio Hours:</strong> Mon - Sat: 10:00 AM - 7:00 PM</p>
+        <div class="seal-pill mt-3">CERTIFIED PRO ARTIST 2026</div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-content">
+        <p>&copy; 2026 Makeup by Kajal Dholani. All rights reserved. Crafted with 3D Motion Artistry.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Artistry</a>
+          <a href="#">Bridal Contract</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP CTA BUTTON -->
+  <a href="https://wa.me/919876543210?text=Hello%20Kajal%20Dholani%20Studio,%20I%20would%20like%20to%20check%20availability%20for%20my%20wedding%20date" target="_blank" class="floating-whatsapp" aria-label="Chat on WhatsApp with Kajal Dholani Concierge" title="Direct WhatsApp Concierge">
+    <div class="wa-ripple"></div>
+    <span class="wa-icon">💬</span>
+    <span class="wa-label">Chat with Kajal</span>
+  </a>
+
+  <!-- Success Toast Modal -->
+  <div class="toast-notification" id="toastNotification">
+    <div class="toast-icon">✨</div>
+    <div class="toast-body">
+      <strong id="toastTitle">Reservation Request Sent!</strong>
+      <span id="toastMsg">Opening WhatsApp with your pre-filled inquiry...</span>
+    </div>
+  </div>
+
+  <!-- Main JavaScript App -->
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
